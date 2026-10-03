@@ -7,7 +7,7 @@ export const DEVPOST_BADGES = "badges/devpost";
 export const ALT_BADGES = "badges/alt";
 
 export const DOMAIN = process.env.NEXT_PUBLIC_BASE_URL || (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000');
-export const GITHUB_REPO = "https://github.com/eightants/i-demoed";
+export const GITHUB_REPO = "https://github.com/sbhacks-org/i-demoed";
 export const WALL_URL_ENDPOINT = "/api/wall?username=";
 export const BASE64_PNG_ENCODE_STRING = "data:image/png;base64,";
 export const FULL_SERVICE_URL =

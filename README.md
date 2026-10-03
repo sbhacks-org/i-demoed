@@ -1,23 +1,29 @@
 <h3 align="center"><img src="public/images/idemoed-frame.png" width="500px" alt="I Demoed"></h3>
 
-> I Demoed was sunsetted on December 12, 2024. The repository continues to be available for access to the sticker and code archives. You can fork the Github repository and host your website yourself.
-> I Demoed had about 1K lifetime users, with the majority being from the USA, India, and Canada. 
+## About This Fork
 
-[I Demoed](https://idemoed.viewodyssey.com) is a hackathon badge showcase service in SVG and raster format, which can easily be included in GitHub readmes or any other webpage. The service supports badge generation from a user's Devpost activity and custom specified badges. With the prevalence of virtual hackathons, this service provides a way for the hackathon community to continue collecting the hexagon "I Demoed" stickers prominent in MLH events.
+This repository is a fork of [eightants/i-demoed](https://github.com/eightants/i-demoed) maintained by SB Hacks.
+
+---
+
+> I Demoed was sunsetted on December 12, 2024. The repository continues to be available for access to the sticker and code archives. You can fork the Github repository and host your website yourself.
+> I Demoed had about 1K lifetime users, with the majority being from the USA, India, and Canada.
+
+[I Demoed](https://idemoed.sbhacks.com) is a hackathon badge showcase service in SVG and raster format, which can easily be included in GitHub readmes or any other webpage. The service supports badge generation from a user's Devpost activity and custom specified badges. With the prevalence of virtual hackathons, this service provides a way for the hackathon community to continue collecting the hexagon "I Demoed" stickers prominent in MLH events.
 
 ![Demo](public/wall.svg)
 
 ## Quickstart
 
 ```
-https://idemoed.vercel.app/api/wall?username=<USERNAME>&limit=<LIMIT>&level=<LEVEL>&events=<EVENTS>&pr=<PR>&size=<SIZE>&type=<TYPE>&placeholder=<PLACEHOLDER>
+https://idemoed.sbhacks.com/api/wall?username=<USERNAME>&limit=<LIMIT>&level=<LEVEL>&events=<EVENTS>&pr=<PR>&size=<SIZE>&type=<TYPE>&placeholder=<PLACEHOLDER>
 ```
 
-Just `https://idemoed.vercel.app/api/wall?username=<USERNAME>` is enough to generate a hex-tiled showcase based on a user's Devpost username. Detailed documentation on each query parameter can [be found on the website](https://idemoed.viewodyssey.com).
+Just `https://idemoed.sbhacks.com/api/wall?username=<USERNAME>` is enough to generate a hex-tiled showcase based on a user's Devpost username. Detailed documentation on each query parameter can [be found on the website](https://idemoed.sbhacks.com).
 
-In Markdown: `![My Wall](https://idemoed.vercel.app/api/wall?username=<USERNAME>)`
+In Markdown: `![My Wall](https://idemoed.sbhacks.com/api/wall?username=<USERNAME>)`
 
-In HTML: `<img src="https://idemoed.vercel.app/api/wall?username=<USERNAME>"/>`
+In HTML: `<img src="https://idemoed.sbhacks.com/api/wall?username=<USERNAME>"/>`
 
 ## Contributing
 
@@ -27,14 +33,14 @@ I Demoed is a community project. Improving the service by submitting badges and 
 
 **Devpost Hackathons**
 
-If your hackathon is on Devpost, [visit the issue page](https://github.com/eightants/i-demoed/issues), select `New issue > Submit Devpost Badge` and provide the following information.
+If your hackathon is on Devpost, [visit the issue page](https://github.com/sbhacks-org/i-demoed/issues), select `New issue > Submit Devpost Badge` and provide the following information.
 
 - Badge Image: PNG image of a hexagon sticker with correct dimensions (minimum 181x209)
 - Devpost Link: Link to event on Devpost (e.g. tamuhack2020.devpost.com)
 
 **Other Hackathons/Events**
 
-If your hackathon does not use Devpost but would still like users to showcase the badge, [visit the issue page](https://github.com/eightants/i-demoed/issues), select `New issue > Submit Other Badge` with the following information. Badges added using this method will not be automatically matched through devpost usernames and will need to be manually specified in the events parameter.
+If your hackathon does not use Devpost but would still like users to showcase the badge, [visit the issue page](https://github.com/sbhacks-org/i-demoed/issues), select `New issue > Submit Other Badge` with the following information. Badges added using this method will not be automatically matched through devpost usernames and will need to be manually specified in the events parameter.
 
 - Badge Image: PNG image of a hexagon sticker with correct dimensions (minimum 181x209)
 - name: Name of event

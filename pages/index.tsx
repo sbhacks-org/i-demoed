@@ -208,7 +208,7 @@ export default function Home() {
           </h3>
           <p className="mb-4">
             If your hackathon is on Devpost,{" "}
-            <a href="https://github.com/eightants/i-demoed/issues">
+            <a href="https://github.com/sbhacks-org/i-demoed/issues">
               visit the issue page
             </a>{" "}
             and select{" "}
@@ -240,7 +240,7 @@ export default function Home() {
           <p className="mb-4">
             If your hackathon does not use Devpost but would still like users to
             showcase the badge,{" "}
-            <a href="https://github.com/eightants/i-demoed/issues">
+            <a href="https://github.com/sbhacks-org/i-demoed/issues">
               visit the issue page
             </a>{" "}
             and select{" "}
