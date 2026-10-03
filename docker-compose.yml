@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  i-demoed:
+    container_name: i-demoed
+    build: .
+    restart: always
+    networks:
+      - caddy
+    labels:
+      caddy: idemoed.sbhacks.com
+      caddy.reverse_proxy: "{{upstreams 3000}}"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_BASE_URL=https://idemoed.sbhacks.com
+
+networks:
+  caddy:
+    external: true
