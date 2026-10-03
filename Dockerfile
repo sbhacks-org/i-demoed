@@ -37,6 +37,10 @@ RUN apk add --no-cache \
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
+# Set build-time environment variable for Next.js
+ARG NEXT_PUBLIC_BASE_URL=https://idemoed.sbhacks.com
+ENV NEXT_PUBLIC_BASE_URL=$NEXT_PUBLIC_BASE_URL
+
 # Build the application
 RUN npm run build
 

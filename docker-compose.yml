@@ -3,7 +3,10 @@ version: '3.8'
 services:
   i-demoed:
     container_name: i-demoed
-    build: .
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_BASE_URL: https://idemoed.sbhacks.com
     restart: always
     networks:
       - caddy
